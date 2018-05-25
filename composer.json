@@ -1,5 +1,5 @@
 {
-    "name": "your-name-here/AkkaCKEditor",
+    "name": "danny3b/AkkaCKEditor",
     "description": "AkkaCKEditor plugin for CakePHP",
     "type": "cakephp-plugin",
     "require": {
