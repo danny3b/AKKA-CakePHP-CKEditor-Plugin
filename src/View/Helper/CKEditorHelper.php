@@ -18,7 +18,7 @@ class CKEditorHelper extends Helper {
      */
     protected $_defaultConfig = [
       'version' => '4.4.7',
-      'distribution' => 'full'
+      'distribution' => 'full-all'
     ];
 
     /**
@@ -50,7 +50,7 @@ class CKEditorHelper extends Helper {
      */
     public function __construct(View $view, $config = []) {
         parent::__construct($view, $config);
-        $this->_configs = $this->config();
+        $this->_configs = $this->getConfig();
     }
 
     /**
